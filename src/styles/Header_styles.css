@@ -1,0 +1,43 @@
+.container_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #091c5a;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 1px 1px;
+}
+
+.label {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #368de4; 
+}
+
+body {
+    padding-top: 70px; /* Ajusta este valor según la altura de tu barra de navegación */
+}
